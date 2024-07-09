@@ -1,11 +1,12 @@
 import "./index.css"
-import Card from "./card";
-import Estudante from "./estudante.jsx"
+import Card from "./components/card.jsx";
+import Estudante from "./components/estudante.jsx"
+import UserGreeting from "./components/UserGreeting.jsx";
 function App() {
   return (
     <>
-     <Estudante name="joao paulo" idade="19" kpop={false}/>
-     <Estudante/>
+     <UserGreeting isLoggedIn={true} username ="Daniel"/>
+     <UserGreeting/>
     </>
   );
 }

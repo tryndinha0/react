@@ -8,10 +8,10 @@ let Estudante = (props)=>{
     }
     return(
         <div style={styles}>
-        <p>Name: {props.name}</p>
-        <p>Idade: {props.idade}</p>
-        <p>Gosta de kpop?: {props.kpop ? "sim" :"nao"}</p>
-    </div>
+            <p>Nome: {props.name}</p>
+            <p>Idade: {props.idade}</p>
+            <p>Kpop: {props.kpop ? "Sim" : "Não"}</p>
+        </div>
     )
 }
 Estudante.propTypes = {
